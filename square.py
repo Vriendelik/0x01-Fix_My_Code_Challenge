@@ -11,10 +11,10 @@ class square():
             setattr(self, key, value)
 
     def area_of_my_square(self):
-        """ Area of the square """
-        return self.width * self.height
+    """ Area of the square """
+    return self.width * self.height
 
-    def PermiterOfMySquare(self):
+    def Permiter_Of_My_Square(self):
         return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
